@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation.xml"
+    app:startDestination="@id/mainActivity">
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.chatbox.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <fragment
+        android:id="@+id/welcome_fragment"
+        android:name="com.example.chatbox.welcome_fragment"
+        android:label="fragment_welcome_fragment"
+        tools:layout="@layout/fragment_welcome_fragment" >
+        <action
+            android:id="@+id/action_welcome_fragment_to_idcreattion"
+            app:destination="@id/idcreattion" />
+    </fragment>
+    <fragment
+        android:id="@+id/idcreattion"
+        android:name="com.example.chatbox.idcreattion"
+        android:label="fragment_idcreattion"
+        tools:layout="@layout/fragment_idcreattion" >
+        <action
+            android:id="@+id/action_idcreattion_to_yourid_Fragment"
+            app:destination="@id/yourid_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/yourid_Fragment"
+        android:name="com.example.chatbox.yourid_Fragment"
+        android:label="fragment_yourid_"
+        tools:layout="@layout/fragment_yourid_" >
+        <action
+            android:id="@+id/action_yourid_Fragment_to_choosenickname_Fragment"
+            app:destination="@id/choosenickname_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/choosenickname_Fragment"
+        android:name="com.example.chatbox.choosenickname_Fragment"
+        android:label="fragment_choosenickname_"
+        tools:layout="@layout/fragment_choosenickname_" >
+        <action
+            android:id="@+id/action_choosenickname_Fragment_to_alldone_setup"
+            app:destination="@id/alldone_setup" />
+    </fragment>
+    <fragment
+        android:id="@+id/alldone_setup"
+        android:name="com.example.chatbox.alldone_setup"
+        android:label="fragment_alldone_setup"
+        tools:layout="@layout/fragment_alldone_setup" >
+        <action
+            android:id="@+id/action_alldone_setup_to_mainActivity"
+            app:destination="@id/mainActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/lockscreen"
+        android:name="com.example.chatbox.lockscreen"
+        android:label="lockscreen" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.chatbox.SettingsFragment"
+        android:label="SettingsFragment" />
+</navigation>

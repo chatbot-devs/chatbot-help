@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:text="@string/lockscreen_enterpin"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:translationX="50dp"
+        android:translationY="50dp"
+        android:translationZ="50dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lockscreen_continue"
+        android:translationX="50dp"
+        android:translationY="90dp"
+        android:translationZ="50dp" />
+
+    <Button
+        android:id="@+id/lockscreenbtn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lockscreen_btncancel"
+        android:translationX="50dp"
+        android:translationY="120dp"
+        android:translationZ="50dp" />
+
+    <EditText
+        android:id="@+id/lockscreenpin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:translationX="80dp"
+        android:translationY="320dp"
+        android:translationZ="50dp"
+        tools:ignore="TextFields"
+        android:autofillHints="" />
+</FrameLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chatbot</string>
+    <string name="sendebutton">envoyer</string>
+    <string name="imput_text_chat">"des nouvelles "</string>
+    <string name="copymsgtitle">copier le message</string>
+    <string name="itemclose">fermer</string>
+    <string name="itemdelete">Supprimer le message</string>
+    <string name="itemcopy">Copier le message</string>
+    <string name="itemmsginfo">Info</string>
+    <string name="itemshare">"partager un message "</string>
+    <string name="createbackuptitle">"créer une sauvegarde de données "</string>
+    <string name="lock">verrouiller</string>
+    <string name="hidechattitle">masquer le chat</string>
+    <string name="sendfeedacktitle">envoyer des commentaires</string>
+    <string name="Backupstitle">sauvegardes</string>
+    <string name="Settingstitle">réglages</string>
+    <string name="helptitle">aider</string>
+    <string name="lockscreen_enterpin">confirmer votre code PIN</string>
+    <string name="lockscreen_continue">"entrez votre code PIN d'application pour continuer "</string>
+    <string name="lockscreen_btncancel">ANNULER</string>
+    <string name="lastbackuptitle">dernière sauvegarde de données réussie</string>
+    <string name="backuppathtitle">BACKUP CHEMIN</string>
+    <string name="backup_created">\?</string>
+    <string name="backupnotifitext">\?</string>
+    <string name="privacy_title">\?</string>
+    <string name="privacy_description">\?</string>
+    <string name="security_title">\?</string>
+    <string name="security_description">\?</string>
+    <string name="design_title">\?</string>
+    <string name="design_description">\?</string>
+    <string name="sounds_title">\?</string>
+    <string name="sounds_description">\?</string>
+    <string name="chat_title">\?</string>
+    <string name="chat_description">\?</string>
+    <string name="storage_title">\?</string>
+    <string name="storage_description">\?</string>
+    <string name="about_title">\?</string>
+    <string name="appereancetitle">\?</string>
+    <string name="letsgo">\?</string>
+    <string name="policydescription">\?</string>
+    <string name="acceptpolicy">\?</string>
+    <string name="setupapp">\?</string>
+    <string name="restorebackup">\?</string>
+    <string name="welcome">"Bienvenue sur la NAME de L APPLICATION "</string>
+</resources>

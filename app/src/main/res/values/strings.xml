@@ -1,0 +1,74 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Chatbox</string>
+    <string name="sendebutton">send</string>
+    <string name="imput_text_chat">Message</string>
+    <string name="mustertext" translatable="false">Beschränkt den Text auf eine einzelne horizontal scrollende Zeile, anstatt ihn auf
+        mehrere Zeilen umbrechen zu lassen, und erhöht den Fokus, anstatt einen Zeilenumbruch einzufügen,
+        wenn Sie die Eingabetaste drücken. </string>
+
+    <string name="user_msg" translatable="false">This is a example message from the user.</string>
+    <string name="bot_msg" translatable="false">This is a example message from the bot.</string>
+
+    <string name="closemsgselection" translatable="false">Deselect message</string>
+    <string name="copymsgtitle">Copy message</string>
+    <string name="amountmsg_selected" translatable="false">1</string>
+    <string name="itemclose">Close</string>
+    <string name="itemdelete">Delete Message</string>
+    <string name="itemcopy">Copy Message</string>
+    <string name="itemmsginfo">Info</string>
+    <string name="itemshare">Share Message</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+
+
+    <string name="createbackuptitle">+ Create data backup</string>
+
+    <string name="lock">Lock</string>
+    <string name="hidechattitle">Hide chat</string>
+    <string name="sendfeedacktitle">Send Feedback</string>
+    <string name="Backupstitle">Backups</string>
+    <string name="Settingstitle">Settings</string>
+    <string name="helptitle">Help</string>
+
+    <!-- Lockscreen strings -->
+    <string name="lockscreen_enterpin">Confirm your PIN</string>
+    <string name="lockscreen_continue">Enter your App-PIN to continue</string>
+    <string name="lockscreen_btncancel" tools:ignore="ButtonCase">CANCEL</string>
+
+
+    <!-- Backup settings screen (fragment) : -->
+    <string name="lastbackuptitle">LAST SUCCESSFUL DATA BACKUP</string>
+    <string name="backupdate" translatable="false">day.month xear hh:mm</string>
+
+
+    <string name="backup_created">Backup Created</string>
+    <string name="backupnotifitext">A Backup has been successfully created (not XD)</string>
+
+    <!-- Preference Titles and descriptions -->
+
+    <string name="privacy_title">Privatsphäre</string>
+    <string name="privacy_description">Kontakte, Chats, Listen</string>
+
+    <string name="security_title">Sicherheit</string>
+    <string name="security_description">Zugriffsschutz, Verschlüsselung lokal gespeicherter Daten</string>
+
+    <string name="design_title">Erscheinungsbild</string>
+    <string name="design_description">Designstil, Sprache, Schriftgrösse</string>
+
+    <string name="sounds_title">Töne und Benachrichtigung</string>
+    <string name="sounds_description">Töne, Vibrieren, Benachrichtigungslicht</string>
+
+    <string name="chat_title">Chat</string>
+    <string name="chat_description">Chat, Tastatur</string>
+
+    <string name="storage_title">Speicher</string>
+    <string name="storage_description">Nachrichten herunterladen</string>
+
+    <string name="about_title">Über "APPNAME"</string>
+    <string name="letsgo">Über "APPNAME"</string>
+    <string name="policydesc0">Über "APPNAME"</string>
+    <string name="acceptpolicy">Über "APPNAME"</string>
+    <string name="setupapp">Über "APPNAME"</string>
+    <string name="restorefrombackup">Über "APPNAME"</string>
+
+</resources>

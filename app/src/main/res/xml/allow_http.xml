@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- file res/xml/allow_http.xml -->
+
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <!-- IP Adresse des Hostservers aus Sicht des Emulators -->
+        <domain includeSubdomains="true">10.0.0.2</domain>
+            <!-- IP Adresse des Hostservers - testweise google ping -->
+        <domain includeSubdomains="true">80.80.80.80</domain>
+
+    </domain-config>
+</network-security-config>

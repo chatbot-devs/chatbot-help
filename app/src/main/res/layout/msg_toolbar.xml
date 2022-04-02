@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/yellow"
+    android:elevation="4dp">
+    <ImageView
+        android:id="@+id/itemclose"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="@string/itemclose"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:scaleType="center"
+        android:src="@drawable/icon_close_msg_toolbar" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="@string/amountmsg_selected">
+    </TextView>
+
+
+    <ImageView
+        android:id="@+id/itemcopy"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="@string/itemcopy"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:scaleType="center"
+        android:src="@drawable/ic_copy_msg" />
+
+    <ImageView
+        android:id="@+id/itemsharemsg"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="@string/itemshare"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:scaleType="center"
+        android:src="@drawable/ic_sharemsg_toolbar" />
+
+    <ImageView
+        android:id="@+id/itemmsginfo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="@string/itemmsginfo"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:scaleType="center"
+        android:src="@drawable/ic_msginfo_toolbar" />
+
+
+    <ImageView
+        android:id="@+id/itemdelete"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="@string/itemdelete"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:scaleType="center"
+        android:src="@drawable/ic_deletemsg_toolbar" />
+
+</androidx.appcompat.widget.Toolbar>

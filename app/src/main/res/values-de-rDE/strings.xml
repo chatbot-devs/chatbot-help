@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chatbox</string>
+    <string name="sendebutton">Senden</string>
+    <string name="imput_text_chat">Nachricht</string>
+    <string name="copymsgtitle">Nachricht kopieren</string>
+    <string name="itemclose">Schliessen</string>
+    <string name="itemdelete">Nachricht löschen</string>
+    <string name="itemcopy">Nachricht kopieren</string>
+    <string name="itemmsginfo">Info</string>
+    <string name="itemshare">Nachricht teilen</string>
+    <string name="createbackuptitle">+ Erstelle Datenbackup</string>
+    <string name="lock">Sperren</string>
+    <string name="hidechattitle">Chat verstecken</string>
+    <string name="sendfeedacktitle">Sende Feedback</string>
+    <string name="Backupstitle">Backups</string>
+    <string name="Settingstitle">Einstellungen</string>
+    <string name="helptitle">Hilfe</string>
+    <string name="lockscreen_btncancel">ABBRECHEN</string>
+    <string name="lastbackuptitle">LETZTES ERFOLGREICHES DATENBACKUP</string>
+    <string name="backup_created">Backup erstellt</string>
+    <string name="backupnotifitext">EIn Backup wurde erfolgreich erstellt (nicht)</string>
+    <string name="lockscreen_enterpin">Bestätige deine PIN</string>
+    <string name="lockscreen_continue">Gebe deine App-PIN ein um fortzufahren</string>
+</resources>
